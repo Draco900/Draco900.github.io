@@ -4,61 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Juan Manuel Sandoval Pito">
-    <meta name="description" content="Página principal de las prácticas de desarrollo web con acceso al restaurante El Sabor Andaluz">
-    <meta name="keywords" content="prácticas, desarrollo web, html, restaurante, página principal">
-    <title>Página principal</title>
-    <link rel="icon" type="image/x-icon" href="restaurante/img/favicon.ico">
+    <meta name="description" content="Horario de apertura del restaurante El Sabor Andaluz, con servicio de mañana y tarde y día de descanso del personal">
+    <meta name="keywords" content="horario, restaurante, El Sabor Andaluz, mañana, tarde, descanso del personal">
+    <title>Horario del restaurante</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-        <header>
+    <header>
         <h1>Horario del Restaurante</h1>
     </header>
     <nav>
         <a href="index.html">Volver al menú</a>
     </nav>
-<table>
-    <caption>Horario Restaurante </caption>
-  <!-- Encabezado de la tabla -->
-  <thead>
-    <tr>
-      <th>Horario</th>
-      <th>Lunes</th>
-      <th>Martes</th>
-      <th>Miercoles</th>
-      <th>Jueves</th>
-      <th>Viernes</th>
-      <th>Sabado</th>
-    </tr>
-  </thead>
-
-  <!-- Cuerpo de la tabla con los datos -->
-  <tbody>
-    <tr>
-      <th>Dia</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-        <th>Noche</th>
-    </tr>
-
- 
-  </tbody>
-
-  <!-- Pie de la tabla (resumen o totales) -->
-  <tfoot>
-    <tr>
-        <th>Festivos</th>
-        <td></td>
-        <th colspan="3">No se hay servicio</th>
-      
-    </tr>
-  </tfoot>
-</table>
-
+    <main>
+        <table border="1">
+            <caption>Horario Restaurante El Sabor Andaluz</caption>
+            <thead>
+                <tr>
+                    <th>Turno</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                    <th>Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Mañana</th>
+                    <td rowspan="2">Cerrado<br>(descanso del personal)</td>
+                    <td>12:30 - 16:00</td>
+                    <td>12:30 - 16:00</td>
+                    <td>12:30 - 16:00</td>
+                    <td>12:30 - 16:00</td>
+                    <td>12:30 - 16:30</td>
+                    <td>12:30 - 16:30</td>
+                </tr>
+                <tr>
+                    <th>Tarde</th>
+                    <td>20:00 - 23:30</td>
+                    <td>20:00 - 23:30</td>
+                    <td>20:00 - 23:30</td>
+                    <td>20:00 - 00:00</td>
+                    <td>20:00 - 00:00</td>
+                    <td>20:00 - 23:00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Festivos</th>
+                    <td colspan="7">No hay servicio</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
     <footer>© 2026</footer>
 </body>
 </html>
