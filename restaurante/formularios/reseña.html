@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Manuel Sandoval Pito">
+    <meta name="description" content="Formulario para escribir una reseña de un plato del restaurante El Sabor Andaluz">
+    <meta name="keywords" content="reseña, opinión, plato, restaurante, El Sabor Andaluz, formulario">
+    <title>Reseña</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Reseña de un plato</h1>
+    </header>
+    <nav>
+        <a href="/restaurante/index.html">Volver al menú</a>
+    </nav>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Su opinión</legend>
+                Plato:<br>
+                <select name="plato">
+                    <option>Tortilla de Patatas</option>
+                    <option>Tortilla Francesa con Queso</option>
+                    <option>Ensalada Caprese Rápida</option>
+                </select><br>
+                Su nombre:<br>
+                <input type="text" name="nombre" size="30"><br>
+                Su reseña del plato:<br>
+                <textarea name="resena" rows="8" cols="60"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="ENVIAR RESEÑA">
+        </form>
+    </main>
+    <footer>© 2026</footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Manuel Sandoval Pito">
+    <meta name="description" content="Formulario para reservar mesa en el restaurante El Sabor Andaluz">
+    <meta name="keywords" content="reserva, mesa, restaurante, El Sabor Andaluz, formulario">
+    <title>Reserva</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Haz una reserva</h1>
+    </header>
+    <nav>
+        <a href="/restaurante/index.html">Volver al menú</a>
+    </nav>
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos de la reserva</legend>
+                <input type="text" name="nombre" placeholder="Su nombre" size="30">
+                <input type="number" name="clientes" placeholder="Número de clientes" min="1"><br><br>
+                <input type="email" name="email" placeholder="Su correo electrónico" size="30">
+                <input type="text" name="telefono" placeholder="Su teléfono"><br><br>
+                Fecha de la reserva:
+                <input type="date" name="fecha">
+                <input type="text" name="hora" placeholder="Hora de la reserva"><br><br>
+                <input type="text" name="mensaje" placeholder="Su mensaje" size="70">
+            </fieldset>
+            <br>
+            <input type="submit" value="SOLICITAR RESERVA">
+            <p>Si desea saber cómo protegemos sus datos, consulte nuestra <a href="#">Política de privacidad</a></p>
+        </form>
+    </main>
+    <footer>© 2026</footer>
+</body>
+</html>
