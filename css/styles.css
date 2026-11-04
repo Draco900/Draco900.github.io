@@ -1,0 +1,15 @@
+header{
+    color: rgb(247, 246, 246);
+    background-color: rgb(55, 93, 150);
+    text-align: center;
+}
+nav{
+    color:aliceblue;
+    background-color:rgb(55, 93, 150);
+    text-align: center;
+}
+a:hover{
+    color:white;
+    cursor:cell;
+    text-decoration: none;
+}
