@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
     <meta name="author" content="Juan Manuel Sandoval Pito">
     <meta name="description" content="Horario semanal del curso de 1º DAM">
     <meta name="keywords" content="horario, 1º DAM, curso, clases, tabla">
@@ -10,14 +11,14 @@
     <link rel="icon" type="image/x-icon" href="../restaurante/img/favicon.ico">
 </head>
 <body>
-    <header>
+    <header class="barra">
         <h1>Horario del curso</h1>
     </header>
     <nav>
         <a href="../index.html">Volver a la página principal</a>
     </nav>
     <main>
-        <table border ="1">
+        <table>
             <caption>Horario 1ºDAM</caption>
             <thead>
                 <tr>
@@ -32,65 +33,56 @@
             <tbody>
                 <tr>
                     <th>8:15-9:15</th>
-                    <td>Programacion</td>
-                    <td>Sistemas Informaticos</td>
-                    <td>Entornos de Desarrollo</td>
-                    <td>Sistemas Informaticos</td>
-                    <td>Entornos de Desarrollo</td>
+                    <td class="prog">Programación</td>
+                    <td class="si">Sistemas Informáticos</td>
+                    <td class="ed">Entornos de Desarrollo</td>
+                    <td class="si" rowspan="2">Sistemas Informáticos</td>
+                    <td class="ed" rowspan="2">Entornos de Desarrollo</td>
                 </tr>
                 <tr>
                     <th>9:15-10:15</th>
-                    <td>Base de Datos</td>
-                    <td>Programacion</td>
-                    <td>Programacion</td>
-                    <td>Sistemas Informaticos</td>
-                    <td>Entornos de Desarrollo</td>
+                    <td class="bd" rowspan="2">Base de Datos</td>
+                    <td class="prog" rowspan="2">Programación</td>
+                    <td class="prog" rowspan="2">Programación</td>
                 </tr>
                 <tr>
                     <th>10:15-11:15</th>
-                    <td>Base de Datos</td>
-                    <td>Programacion</td>
-                    <td>Programacion</td>
-                    <td>Programacion</td>
-                    <td>Digitalizacion</td>
+                    <td class="prog">Programación</td>
+                    <td class="dig">Digitalización</td>
                 </tr>
                 <tr>
                     <th>11:15-11:45</th>
-                    <th colspan="5">DESCANSO</th>
+                    <td class="descanso" colspan="5">DESCANSO</td>
                 </tr>
                 <tr>
                     <th>11:45-12:45</th>
-                    <td>Lenguajes de Marcas</td>
-                    <td>IPEI</td>
-                    <td>Sostenibilidad</td>
-                    <td>Base de Datos</td>
-                    <td>IPEI</td>
+                    <td class="lm">Lenguajes de Marcas</td>
+                    <td class="ipei">IPEI</td>
+                    <td class="sost">Sostenibilidad</td>
+                    <td class="bd" rowspan="2">Base de Datos</td>
+                    <td class="ipei">IPEI</td>
                 </tr>
                 <tr>
                     <th>12:45-13:45</th>
-                    <td>Sistemas Informaticos</td>
-                    <td>Base de Datos</td>
-                    <td>Lenguajes de Marcas</td>
-                    <td>Base de Datos</td>
-                    <td>Programacion</td>
+                    <td class="si" rowspan="2">Sistemas Informáticos</td>
+                    <td class="bd" rowspan="2">Base de Datos</td>
+                    <td class="lm" rowspan="2">Lenguajes de Marcas</td>
+                    <td class="prog" rowspan="2">Programación</td>
                 </tr>
                 <tr>
                     <th>13:45-14:40</th>
-                    <td>Sistemas Informaticos</td>
-                    <td>Base de Datos</td>
-                    <td>Lenguajes de Marcas</td>
-                    <td>IPEI</td>
-                    <td>Programacion</td>
+                    <td class="ipei">IPEI</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <th>14:40</th>
-                    <th colspan="5">SALIDA</th>
+                    <td class="descanso" colspan="5">SALIDA</td>
                 </tr>
             </tfoot>
         </table>
     </main>
-    <footer>© 2026</footer>
+    <footer class="barra">© 2026</footer>
 </body>
 </html>
+
